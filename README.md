@@ -4,4 +4,4 @@ Some of the source code to train the models for precipitation nowcasting of my d
 
 # Prediction sample on test data
 ![Alt Text](https://media.giphy.com/media/ZbZNj4GBCHBpSCHfZV/giphy.gif) <br />
-Left is the raw probability of the prediction, middle rounded at threshold .5, right is the ground truth.
+Left is the raw probability of the prediction, middle rounded at threshold .5, right is the ground truth. The predictions are done using an ensemble of the best performing model from the training checkpoints.
